@@ -10,7 +10,7 @@ int main(){
 	char c;
 	printf("reading from file...\n");
 	while ( c=getc(file)!=EOF){
-		putchar(c)
+		putchar(c);
         }
 	fclose(file);
 
