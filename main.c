@@ -9,7 +9,7 @@ int main(){
 	}
 	char c;
 	printf("reading from file...\n");
-	while ( c=getc(file)!=EOF){
+	while ( (c=fgetc(file))!=EOF){
 		putchar(c);
         }
 	fclose(file);
